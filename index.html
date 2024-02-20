@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Registrate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="container-fluid">
+            <div class="row-fondo">
+                <div class="col-6">
+                    <a href="./tienda.html">Tienda</a>
+                </div>
+                <div class="col-6">
+                    <a href="#">Aportes</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./assets/img/paramo_portada.jpg" alt="foto_portada" class="img-fluid mx-auto d-block mt-3">
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row my-4 justify-content-center">
+                <div class="col-6">
+                    <img src="./assets/img/frailejon_ernesto_perez.gif" alt="" width="300px" class="wow animate__animated animate__backInLeft">
+                </div>
+                <div class="col-6"></div>
+            </div>
+
+            <h4>REGISTRATE CON NOSOTROS</h4>
+
+            <form class="wow animate__animated animate__backInRight">
+                <div class="input-group mb-3 ">
+                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                    <input type="email" class="form-control" placeholder="Introduzca Correo Electrónico">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-key key"></i></span>
+                    <input type="password" class="form-control" placeholder="Introduzca Contraseña">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                    <input type="password" class="form-control" placeholder="Confirme Contraseña">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-secondary" disabled>Button</button>
+                </div>
+                
+            </form>
+
+        </section>
+
+        <section>
+            <video src="./assets/video/nature_video.mp4" class="w-100 mt-5" muted autoplay loop ></video>
+        </section>
+
+
+    </main>
+    
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./src/controllers/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+</html>
